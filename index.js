@@ -1,16 +1,3 @@
-// function scuberGreetingForFeet(value){
-//   // Write your code here!
-
-// }
-
-// function ternaryCheckCity() {
-//   // Write your code here!
-// }
-
-// function switchOnCharmFromTip() {
-//   // Write your code here!
-// }
-
 const scuberGreetingForFeet = (value) => {
   let greeting = value;
   switch (true) {
@@ -29,11 +16,11 @@ const scuberGreetingForFeet = (value) => {
   }
 }
 
-// console.log(scuberGreetingForFeet(2501));
+
 
 const ternaryCheckCity = (cityName) => cityName === "NYC" ? 'Ok, sounds good.' : 'No go.';
 
-//  console.log (ternaryCheckCity('NYC'));
+
 
 const switchOnCharmFromTip = (tipAmount) => {
   if (tipAmount === 'generous') {
@@ -44,3 +31,5 @@ const switchOnCharmFromTip = (tipAmount) => {
     return 'Bye.';
   }
 }
+
+
